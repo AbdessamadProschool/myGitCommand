@@ -1,0 +1,152 @@
+*
+{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+body, h1, h2, h3, h4, h5, h6
+{
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color:white;
+}
+.container
+{
+  width:90%;
+  margin:auto;
+}
+.clear
+{
+  clear:both;
+}
+
+/* header section style start */
+.header-section
+{
+  position: absolute;
+  width: 100%; 
+}
+.nav
+{
+  background-color:transparent;
+  border-bottom: 0.5px solid #73757D;
+  height: 120px;
+}
+
+.logo
+{
+  float:left;
+  text-transform:capitalize;
+  line-height:4
+}
+.logo a
+{
+  font-weight:500;
+  text-decoration:none;
+  color:white
+}
+
+.logo .dot
+{
+  background-color:#007bff;
+  display:inline-block;
+  height:4px;
+  width:4px;
+  border-radius:50%;
+  margin-left:3px
+}
+.links
+{
+  float:right;
+  text-transform:capitalize;
+  font-weight: 400; 
+}
+
+.links ul.ul-container
+{
+  list-style:none;
+}
+.links ul.ul-container > li
+{
+  display:inline-block;
+  font-size: 1rem;
+  line-height:8;
+}
+.links ul.ul-container > li > a 
+{
+  text-decoration:none;
+  color:white;
+  padding:5px 20px;
+}
+.dropdown
+{
+  position:relative;
+}
+.dropdown-about
+{
+  position: absolute;
+background-color: #4e505b;
+top: 85px;
+left: 362px;
+border-top: 4px solid #007BFF;
+list-style: none;
+text-align: center;
+display: none;
+}
+
+.dropdown-about > li a
+{
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* header section style end */
+
+.home
+{
+  background-image: url("https://colorlib.com/preview/theme/nitro/images/hero_2.jpg");
+  background-size: cover;
+  background-position: 0px -36px;
+  height: 125vh;
+  position: relative;
+}
+
+.home-content
+{
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+   transform: translate(-50%, -50%);
+   width: 65%;
+   text-align: center;
+}
+
+.home-content .home-title
+{
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.home-content .home-desc
+{
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  font-weight: 200;
+  line-height: 1.5;
+  margin-bottom: 45px;
+}
+
+.home-content .btn
+{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    background-color: #007BFF;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    border-color: #007BFF;
+    line-height: 1.2rem;
+}

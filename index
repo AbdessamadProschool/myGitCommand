@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>template html css</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+ 
+
+   <div class="home">
+   	  <div class="header-section">
+      <div class="nav">
+        <div class="container">
+          <div class="logo">
+            <h1 class="logoName">
+              <a href="#"> nitro<span class="dot"> </span></a>
+              </h1>
+        </div>
+        <div class="links">
+          <ul class="ul-container">
+            <li><a href="#"> home</a></li>
+            <li class="dropdown"><a href="#">about us</a></li>
+               <ul class="dropdown-about">
+                <li><a href="#" >team</a></li>
+                <li><a href="#" >privicing</a></li>
+                <li><a href="#" >FAQ</a></li>
+                <li><a href="#" >more links</a>
+                </li>
+              </ul>
+            
+            <li><a href="#" >portfolio</a></li>
+            <li><a href="#" >services</a></li>
+            <li><a href="#" >testimonials</a></li>
+            <li><a href="#" >blog</a></li>
+            <li><a href="#" >contact</a></li>
+          </ul>  
+         </div> 
+         <div class="clear"></div> 
+        </div><!--/.container -->
+      </div><!--/.nav -->  
+   </div><!--/.header -->
+   	<div class="home-content">
+   		<h1 class="home-title">welcome</h1>
+   		<p class="home-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio soluta eius error.</p>
+   		<a href="#" class="btn">get in touch</a>
+   	</div>
+   </div><!--/.home -->
+</body>
+</html>
+
+
+
+<!--
+
+                 <ul>
+                    <li>menu one</li>
+                    <li>menu two</li>
+                    <li>menu three</li>
+                  </ul>
+-->
